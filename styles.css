@@ -100,12 +100,12 @@ body {
 
 .img-text:hover .subtitle-header {
   font-weight: bold;
-  color: white;
+  color: lightseagreen;
 }
 
 .img-text:hover .subtitle {
   font-weight: 100;
-  color: white;
+  color: lightseagreen;
 }
 
 .img-darken {
@@ -129,7 +129,7 @@ body {
 }
 
 .profile-content h1 {
-  color: white;
+  color: lightseagreen;
 }
 
 /* Banner Style */
