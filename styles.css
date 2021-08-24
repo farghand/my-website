@@ -140,7 +140,8 @@ body {
   font-weight: bold;
   padding: 250px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/portfolio-background.jpg");
+    url("images/banner-image.jpg");
+  background-position: center;
   color: lightseagreen;
 }
 
@@ -159,4 +160,12 @@ body {
   padding: 10px;
   width: 200px;
   height: 50px;
+  cursor: pointer;
+}
+
+.web-button:hover {
+  transition: 1s;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    lightseagreen;
+  color: black;
 }
